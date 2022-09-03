@@ -1,0 +1,46 @@
+{
+  "name": "testvagrantassignment",
+  "version": "1.0.0",
+  "description": "<!--  Prerequisites are : VScode & npm installed on local machine. And even install different browsers like chrome safari or firefox on the machine.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-ByFilePath": "npx codeceptjs run --verbose",
+    "test-byConfigFile": "npx codeceptjs run --grep '@MNNonNaic' --verbose -c ./codecept.conf.local.js",
+    "test-byTags": "npx codeceptjs run --grep '@RCB' --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaishloke/TestVagrantAssignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaishloke/TestVagrantAssignment/issues"
+  },
+  "homepage": "https://github.com/vaishloke/TestVagrantAssignment#readme",
+  "devDependencies": {
+    "@wdio/cli": "^7.24.0",
+    "@wdio/selenium-standalone-service": "^7.24.0",
+    "codeceptjs": "^3.3.5",
+    "selenium-standalone": "^7.1.0",
+    "webdriverio": "^7.24.0",
+    "@cucumber/cucumber": "^8.5.2",
+    "@wdio/cucumber-framework": "^7.24.0",
+    "@wdio/sauce-service": "^7.19.2",
+    "@wdio/spec-reporter": "^7.7.3",
+    "allure": "0.0.0",
+    "allure-commandline": "^2.17.2",
+    "allure-js-commons": "^2.0.0-beta.15",
+    "assert": "^2.0.0",
+    "axios": "^0.26.1",
+    "datatables": "^1.10.18",
+    "js-base64": "^2.5.1",
+    "ts-node": "^10.7.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.3",
+    "typescript-json-object-mapper": "^1.4.5",
+    "typescript-map": "^0.1.0"
+  }
+}

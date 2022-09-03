@@ -1,0 +1,7 @@
+/allure-report
+/node_modules
+/output
+/.Temporary
+/reports
+/temp
+/loginflow_test

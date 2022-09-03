@@ -1,0 +1,31 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "es2018",
+    "lib": [
+      "es2018",
+      "DOM"
+    ],
+    "esModuleInterop": true,
+    "module": "commonjs",
+    // "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "types": [
+      "codeceptjs",
+      "node",
+    ],
+    // newly added
+    "forceConsistentCasingInFileNames": true,
+    "outDir": ".Temporary",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    // "strict": true
+    // "strictNullChecks": true,
+    // "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  }
+}
