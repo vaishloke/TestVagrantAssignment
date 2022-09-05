@@ -1,6 +1,6 @@
 # TestVagrantAssignment
 
-<!-- 
+
 Prerequisites are : VScode & npm installed on local machine. And even install different browsers like chrome safari or firefox on the machine. 
 
 To clone this repo use below command in the git bash terminal. Make sure you open the git bash in the folder of your choice where 
@@ -59,4 +59,4 @@ Error:
     at Command.listener (/Users/vaishnaviloke/Automation/node_modules/commander/index.js:315:8)
 
 ****** Error on the terminal pasted above *******
- -->
+
